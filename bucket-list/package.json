@@ -1,0 +1,16 @@
+{
+  "name": "bucket-list",
+  "version": "1.0.0",
+  "description": "Aprendemos a trabajar con archivos.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Fernando <luis.torresmo@alum.uca.es>",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.2.1",
+    "inquirer": "^8.2.2"
+  }
+}

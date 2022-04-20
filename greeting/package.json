@@ -1,0 +1,23 @@
+{
+  "name": "greeting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm test",
+    "prestart": "npm run lint",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint **.js"
+  },
+  "keywords": [],
+  "author": "Luis Fernando",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-plugin-react": "^7.29.4"
+  },
+  "dependencies": {
+    "command-line-args": "^5.2.1"
+  }
+}
